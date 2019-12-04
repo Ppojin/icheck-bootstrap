@@ -86,7 +86,7 @@ To have components without label, you still have to have label control with empt
 
 #### checkbox example
 
-``` html
+``` asp
 <div class="icheck-primary">
     @Html.CheckBoxFor(m => m.SomeProperty, new { id = "someCheckboxId" })
     <label for="someCheckboxId">Click to check</label>
@@ -95,7 +95,7 @@ To have components without label, you still have to have label control with empt
 
 #### radio buttons example
 
-``` html
+``` asp
 <div class="icheck-primary">
     @Html.RadioButtonFor(m => m.SomeProperty, SomeValue1, new { id = "someRadioId1" }) 
     <label for="someRadioId1">Option 1</label>
