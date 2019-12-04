@@ -32,7 +32,7 @@ Several quick start options are available:
 
 #### checkbox example
 
-```
+``` html
 <div class="icheck-primary">
     <input type="checkbox" id="someCheckboxId" />
     <label for="someCheckboxId">Click to check</label>
@@ -41,7 +41,7 @@ Several quick start options are available:
 
 #### radio buttons example
 
-```
+``` html
 <div class="icheck-primary">
     <input type="radio" id="someRadioId1" name="someGroupName" />
     <label for="someRadioId1">Option 1</label>
@@ -56,7 +56,7 @@ Several quick start options are available:
 
 To have checkboxes or radio buttons inline use .icheck-inline class
 
-```
+``` html
 <div class="icheck-primary icheck-inline">
     <input type="checkbox" id="chb1" />
     <label for="chb1">Label 1</label>
@@ -75,7 +75,7 @@ Use disabled attribute on your input (checkbox or radio) to have disabled style.
 
 To have components without label, you still have to have label control with empty text.
 
-```
+``` html
 <div class="icheck-primary">
     <input type="checkbox" id="someCheckboxId" />
     <label for="someCheckboxId"></label>
@@ -86,7 +86,7 @@ To have components without label, you still have to have label control with empt
 
 #### checkbox example
 
-```
+``` html
 <div class="icheck-primary">
     @Html.CheckBoxFor(m => m.SomeProperty, new { id = "someCheckboxId" })
     <label for="someCheckboxId">Click to check</label>
@@ -95,7 +95,7 @@ To have components without label, you still have to have label control with empt
 
 #### radio buttons example
 
-```
+``` html
 <div class="icheck-primary">
     @Html.RadioButtonFor(m => m.SomeProperty, SomeValue1, new { id = "someRadioId1" }) 
     <label for="someRadioId1">Option 1</label>
